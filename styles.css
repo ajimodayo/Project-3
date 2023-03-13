@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding: 0 7rem;
+}
+
+.logo img {
+    height: 2rem;
+    width: auto;
+    margin-left: 4rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: 5rem;
+}
+
+nav ul li {
+    margin-left: 2rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgba(100, 100, 100, 0.8);
+    font-size: 0.9rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul li .trend {
+    transition: 0.7s ease-in;
+}
+
+nav ul li .trend:hover {
+    color: rgba(255, 0, 0, 0.6);
+}
+
+#main ul {
+    width: 65rem;
+    margin: 0 auto;
+    list-style: none;
+}
+
+#main ul #first-li {
+    width: 38rem;
+    height: 27rem;
+    text-decoration: none;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4rem;
+    margin-bottom: 3rem;
+}
+
+.first-photo {
+    width: 100%;
+    height: 50%;
+}
+
+.sec-photo {
+    display: none;
+}
+
+.txts {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.txts h1 {
+    width: 40%;
+    font-size: 3rem;
+    font-family: 'Golos Text', sans-serif;
+}
+
+.txts .btn {
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+}
+
+.txts .btn p {
+    font-size: 0.82rem;
+    color: rgba(100, 100, 100, 0.8);
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 3rem;
+}
+
+.txts .btn a {
+    font-size: 0.9rem;
+    text-decoration: none;
+    background-color: rgba(255, 0, 0, 0.6);
+    font-family: 'Golos Text', sans-serif;
+    color: #fff;
+    padding: 0.8rem 2rem;
+    transition: 0.7s ease-in;
+}
+
+.txts .btn a:hover {
+    background-color: #000;
+}
+
+#second-li {
+    width: 18rem;
+    height: 27rem;
+    background-color: #000;
+}
+
+#second-li h2 {
+    font-size: 2rem;
+    color: rgb(232, 165, 82, 0.9);
+    font-family: 'Golos Text', sans-serif;
+    margin: 1.5rem 0;
+}
+
+#second-li p {
+    font-size: 0.8rem;
+    color: rgba(200, 200, 200, 0.8);
+    font-family: 'Golos Text', sans-serif;
+}
+
+#second-li span {
+    height: 0.03rem;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: block;
+    margin: 1.5rem 0;
+}
+
+#second-li .hydro {
+    font-size: 1.1rem;
+    color: #fff;
+    margin-bottom: 0.7rem;
+    transition: 0.7s ease-in;
+}
+
+#second-li #hydros:hover {
+    color: rgb(232, 165, 82, 0.9);
+}
+
+.li-container {
+    margin-left: 1rem;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3.5rem;
+}
+
+#footer .img-div {
+    display: flex;
+}
+
+#footer .retro {
+    height: 6.5rem;
+    width: 5rem;
+}
+
+#footer #retros {
+    transition: 0.7s ease-in;
+}
+
+#footer #retros:hover {
+    color: rgba(255, 0, 0, 0.6);
+}
+
+#footer .pic-num {
+    margin-left: 1rem;
+}
+
+.pic-num h2 {
+    font-size: 1.8rem;
+    font-family: 'Golos Text', sans-serif;
+    color: rgba(200, 200, 200, 0.8);
+    margin-bottom: 0.5rem;
+}
+
+.pic-num .paragraph {
+    font-size: 0.9rem;
+    font-family: 'Golos Text', sans-serif;
+    font-weight: 900;
+    margin-bottom: 0.5rem;
+}
+
+.pic-num .sec-paragraph {
+    color: rgba(100, 100, 100, 0.8);
+    font-size: 0.9rem;
+    font-family: 'Golos Text', sans-serif;
+}
+
+@media (max-width: 414px) {
+
+    #header {
+        padding: 0;
+    }
+
+    .logo img {
+        margin-left: 1.5rem;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    #main ul {
+        width: 100%;
+    }
+
+    #main ul #first-li {
+        width: 100%;
+        height: auto;
+        text-decoration: none;
+        /* background-color: green; */
+    }
+
+    section {
+        display: block;
+        padding: 0;
+    }
+
+    .txts {
+        display: block;
+        margin-top: 1rem;
+        margin-left: 1.5rem;
+    }
+
+    .txts h1 {
+        width: 80%;
+        font-size: 2.5rem;
+        font-family: 'Golos Text', sans-serif;
+    }
+
+    .txts .btn {
+        margin-top: 0.5rem;
+        margin-right: 0.5rem;
+    }
+
+    .txts .btn p {
+        font-size: 0.82rem;
+        color: rgba(100, 100, 100, 0.8);
+        font-family: 'Roboto', sans-serif;
+        margin-bottom: 2rem;
+    }
+
+    .txts .btn a {
+        font-size: 0.8rem;
+        text-decoration: none;
+        background-color: rgba(255, 0, 0, 0.6);
+        font-family: 'Golos Text', sans-serif;
+        color: #fff;
+        padding: 0.8rem 3rem;
+        transition: 0.7s ease-in;
+    }
+
+    .first-photo {
+        display: none;
+    }
+
+    .sec-photo {
+        height: 20rem;
+        margin: 0 auto;
+        display: block;
+    }
+
+    #second-li {
+        width: 17rem;
+        height: 25rem;
+        background-color: #000;
+        margin-left: 1.5rem;
+        margin-top: 3.5rem;
+    }
+
+    #second-li h2 {
+        font-size: 1.5rem;
+        color: rgb(232, 165, 82, 0.9);
+        font-family: 'Golos Text', sans-serif;
+        /* margin: 2rem 0; */
+        padding-top: 1rem;
+    }
+
+    #second-li p {
+        font-size: 0.7rem;
+        color: rgba(200, 200, 200, 0.8);
+        font-family: 'Golos Text', sans-serif;
+    }
+
+    #second-li span {
+        height: 0.03rem;
+        width: 90%;
+        background-color: rgba(255, 255, 255, 0.2);
+        display: block;
+        margin: 1.5rem 0;
+    }
+
+    #second-li .hydro {
+        font-size: 1rem;
+        color: #fff;
+        margin-bottom: 0.7rem;
+    }
+
+    .li-container {
+        margin-left: 1rem;
+    }
+
+    #footer {
+        display: block;
+        margin-bottom: 3rem;
+        padding: 0 1.5rem;
+    }
+    
+    #footer .img-div {
+        display: flex;
+        margin-bottom: 1.5rem;
+    }
+    
+    #footer .retro {
+        height: 5.5rem;
+        width: 4.5rem;
+    }
+    
+    #footer #retros {
+        transition: 0.7s ease-in;
+    }
+    
+    #footer #retros:hover {
+        color: rgba(255, 0, 0, 0.6);
+    }
+    
+    #footer .pic-num {
+        margin-left: 1rem;
+    }
+    
+    .pic-num h2 {
+        font-size: 1.2rem;
+        font-family: 'Golos Text', sans-serif;
+        color: rgba(200, 200, 200, 0.8);
+        margin-bottom: 0.5rem;
+    }
+    
+    .pic-num .paragraph {
+        font-size: 0.9rem;
+        font-family: 'Golos Text', sans-serif;
+        font-weight: 900;
+        margin-bottom: 0.5rem;
+    }
+    
+    .pic-num .sec-paragraph {
+        color: rgba(100, 100, 100, 0.8);
+        font-size: 0.7rem;
+        font-family: 'Roboto', sans-serif;
+    }
+}
